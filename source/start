@@ -1,0 +1,7 @@
+clear
+rm gram.tab.*
+rm lex.yy.*
+rm kompilator temp.txt
+make
+./kompilator ok.pjp
+cat temp.txt
